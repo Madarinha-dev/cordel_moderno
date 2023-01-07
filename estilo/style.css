@@ -8,15 +8,19 @@
     --fonte3:'Fondest.ttf', sans-serif; 
 }
 
-* { /*Regra pra todos os objeto do site*/
+* {
     margin: 0px;
-    padding: 0px;
+    padding:0px;
     font-size:1em;
+}
+
+body{
+    
 }
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: gray;
     font-family:var(--fonte1);
 }
 
@@ -82,7 +86,7 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 520px;
+    /*width: 400px;*/
     background-color: rgba(0, 0, 0, 0);
     text-shadow: 0.5px 0.5px 0.5px black;
 }
@@ -90,7 +94,6 @@ section.imagem > p {
 section#img01{
     background-image: url('../imagens/background001.jpg');
     background-position: center center;
-    
 }
 
 section#img02{
